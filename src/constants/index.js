@@ -101,13 +101,13 @@ export const experiences = [
         company_name: "Onward Assist",
         icon: onward,
         iconBg: "#accbe1",
-        date: "Jan 2024 - Present",
+        date: "Jan 2024 - July 2024",
         points: [
-            "Ensuring the efficiency of ML models using load balancing techniques on AWS.",
-            "Management of docker containers and their respective AWS instances for a seamless workflow.",
-            "Implementing cluster network using AWS for the efficient scaling of multiple algorithms.",
+            "Ensured the efficiency of ML models using load balancing techniques on AWS.",
+            "Managed docker containers and their respective AWS instances for a seamless workflow.",
+            "Implemented cluster network using AWS for the efficient scaling of multiple algorithms.",
             "Integration of DICOM workflow compatibility into the organization's pathology applications.",
-            "Leveraging Google Healthcare API for improved productivity and data management."
+            "Leveraged Google Healthcare API for improved productivity and data management."
         ],
     },
     {
