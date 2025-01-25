@@ -17,12 +17,12 @@ const renderContent = {
         <h1 className="sm:text-xl sm:leading-snug text center neo-brutalism-blue py-4 px-8 text-white mx-5">
             Hello! I am <span className="font-semibold">Vaigarai</span> 👋.
             <br />
-            A Computer Science student from India.
+            A Computer Science student at NYU.
         </h1>
     ),
     2: (
         <InfoBox 
-            text="I am a passionate web developer and a tech enthusiast. I love to learn new technologies and build cool stuff."
+            text="I am a passionate software developer and a AI enthusiast. I love to learn new technologies and build cool stuff."
             link="/portfolio/about"
             btnText="Learn More"
         />
