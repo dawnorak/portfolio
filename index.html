@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaigarai Sathi - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">VS</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+                        <i class="fas fa-moon" id="theme-icon"></i>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text slide-in-left">
+                <h1>Vaigarai Sathi</h1>
+                <p class="subtitle">Computer Science Graduate Student</p>
+                <p class="description">
+                    Passionate about quantitative research, machine learning, and building scalable systems. 
+                    Currently pursuing MS in Computer Science at NYU with expertise in trading algorithms, 
+                    ML infrastructure, and full-stack development.
+                </p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-code"></i>
+                        View Projects
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-envelope"></i>
+                        Get In Touch
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image slide-in-right">
+                <div class="profile-card">
+                    <div class="profile-image">
+                        <img src="assets/dawn.jpg" alt="Vaigarai Sathi" class="profile-photo">
+                    </div>
+                    <h3>MS Computer Science</h3>
+                    <img src="assets/nyu.png" alt="New York University" class="university-logo">
+                    <p>GPA: 3.95/4.0</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title fade-in">About Me</h2>
+            <div class="about-content">
+                <div class="about-text fade-in">
+                    <p>
+                        I'm a dedicated Computer Science graduate student at New York University with a strong foundation 
+                        in quantitative research, machine learning, and software engineering. My journey spans from 
+                        developing advanced trading algorithms to building scalable ML infrastructure.
+                    </p>
+                    <p>
+                        I'm passionate about solving complex problems at the intersection of finance and technology, 
+                        with expertise in real-time systems, cloud architecture, and machine learning model deployment. 
+                        My research interests include graph learning and multi-agent systems.
+                    </p>
+                </div>
+                <div class="skills-grid fade-in">
+                    <div class="skill-category">
+                        <h3>Languages</h3>
+                        <div class="skill-icons">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" title="Python" />
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" title="Java" />
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" title="JavaScript" />
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="C++" title="C++" />
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" title="C" />
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML5" title="HTML5" />
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS3" title="CSS3" />
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Frameworks & Tools</h3>
+                        <div class="skill-icons">
+                            <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="PyTorch" title="PyTorch" />
+                            <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="TensorFlow" title="TensorFlow" />
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React" title="React" />
+                            <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="Spring Boot" title="Spring Boot" />
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" alt="Node.js" title="Node.js" />
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg" alt="Flask" title="Flask" />
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Cloud & DevOps</h3>
+                        <div class="skill-icons">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" alt="AWS" title="AWS" />
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/googlecloud/googlecloud-original.svg" alt="Google Cloud" title="Google Cloud" />
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="Docker" title="Docker" />
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain-wordmark.svg" alt="Kubernetes" title="Kubernetes" />
+                            <img src="https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg" alt="Jenkins" title="Jenkins" />
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="Git" title="Git" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">Experience</h2>
+            <div class="experience-timeline">
+                <div class="timeline-item fade-in">
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <img src="assets/blockhouse.png" alt="Blockhouse Labs" class="company-logo">
+                            <div>
+                                <h3 class="timeline-title">Quantitative Research Intern</h3>
+                                <p class="timeline-company">Blockhouse Labs, Inc.</p>
+                                <p class="timeline-date">June 2025 - Present</p>
+                            </div>
+                        </div>
+                        <div class="timeline-description">
+                            <p>Engineered advanced trading strategies and algorithms for a multi-venue Smart Order Router (SOR), optimizing execution across equities, crypto, and derivatives.</p>
+                            <ul>
+                                <li>Implemented affine alpha integration with TWAP-based scheduler using convex optimization</li>
+                                <li>Designed real-time policy engine with <10ms response time for market microstructure signals</li>
+                                <li>Reduced adverse selection costs by 23% during high-volatility periods</li>
+                                <li>Accelerated SOR decision-making by 17% with ML-based lookup model</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item fade-in">
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <img src="assets/onward.png" alt="Onward Assist" class="company-logo">
+                            <div>
+                                <h3 class="timeline-title">Machine Learning Intern</h3>
+                                <p class="timeline-company">Onward Assist</p>
+                                <p class="timeline-date">Jan 2024 - July 2024</p>
+                            </div>
+                        </div>
+                        <div class="timeline-description">
+                            <p>Led cloud infrastructure migration and ML workload optimization for pathology applications.</p>
+                            <ul>
+                                <li>Engineered scalable container orchestration on AWS ECS for ML workloads</li>
+                                <li>Led migration from AWS to GCP with Kubernetes Engine architecture</li>
+                                <li>Enhanced pathology application with DICOM compatibility for medical imaging</li>
+                                <li>Developed comprehensive format conversion pipeline using Cloud Healthcare API</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item fade-in">
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <img src="assets/effigo.jpg" alt="Effigo Global" class="company-logo">
+                            <div>
+                                <h3 class="timeline-title">SDE Intern</h3>
+                                <p class="timeline-company">Effigo Global</p>
+                                <p class="timeline-date">Jan 2023 - July 2023</p>
+                            </div>
+                        </div>
+                        <div class="timeline-description">
+                            <p>Modernized legacy applications and improved development workflows through automation.</p>
+                            <ul>
+                                <li>Modernized legacy Spring Boot applications and developed RESTful APIs</li>
+                                <li>Managed AWS instances and Docker container deployments</li>
+                                <li>Architected reusable mailing service with open-source editors</li>
+                                <li>Optimized Jenkins CI/CD pipelines with automated builds and notifications</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <h2 class="section-title fade-in">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card fade-in">
+                    <div class="project-header">
+                        <h3 class="project-title">
+                            <a href="https://github.com/dawnorak/gt_covariance" target="_blank">
+                                Spatio-Temporal Graph Learning for Covariance Forecasting
+                            </a>
+                        </h3>
+                        <p class="project-tech">PyTorch, Transformers, Graph Neural Networks</p>
+                    </div>
+                    <div class="project-description">
+                        <p>Advanced financial modeling using graph-based representations of S&P 500 markets with spatio-temporal transformers for high-resolution covariance forecasting.</p>
+                        <ul>
+                            <li>Constructed dynamic graph representations using S&P 500 assets as nodes with multi-source features</li>
+                            <li>Developed Spatio-Temporal Graph Transformer combining GATv2 and Transformer encoders</li>
+                            <li>Enforced positive semi-definiteness via low-rank factorization and spectral regularization</li>
+                            <li>Optimized log-likelihood-based loss with Ledoit-Wolf-style shrinkage for robust risk modeling</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in">
+                    <div class="project-header">
+                        <h3 class="project-title">
+                            <a href="https://github.com/dawnorak/marl-kart-simulator" target="_blank">
+                                Cooperation Dynamics in Multi-Agent Systems
+                            </a>
+                        </h3>
+                        <p class="project-tech">Unity, C#, PyTorch, Game Theory</p>
+                    </div>
+                    <div class="project-description">
+                        <p>Research on promoting cooperation in multi-agent systems using game-theoretic approaches, published at IROS 2023 and SAE International Journal.</p>
+                        <ul>
+                            <li>Presented research paper at MAD-Games Workshop at IROS 2023</li>
+                            <li>Published journal article in SAE International Journal of Connected and Automated Vehicles</li>
+                            <li>Leveraged mean-field game theory for equilibrium solutions in infinitely large agent sets</li>
+                            <li>Validated practical capabilities using various simulation environments</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <div class="contact-content fade-in">
+                <h2>Let's Connect</h2>
+                <p>I'm always interested in discussing new opportunities, research collaborations, or just having a chat about technology and innovation.</p>
+                <div class="contact-links">
+                    <a href="mailto:vaigarai.sathi@nyu.edu" class="contact-link">
+                        <i class="fas fa-envelope"></i>
+                        Email
+                    </a>
+                    <a href="https://linkedin.com/in/vaigaraisathi" target="_blank" class="contact-link">
+                        <i class="fab fa-linkedin"></i>
+                        LinkedIn
+                    </a>
+                    <a href="https://github.com/dawnorak" target="_blank" class="contact-link">
+                        <i class="fab fa-github"></i>
+                        GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Vaigarai Sathi.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
