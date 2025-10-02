@@ -245,8 +245,8 @@ const themeToggle = document.getElementById('theme-toggle');
 const themeIcon = document.getElementById('theme-icon');
 const body = document.body;
 
-// Check for saved theme preference or default to light mode
-const currentTheme = localStorage.getItem('theme') || 'light';
+// Check for saved theme preference or default to dark mode
+const currentTheme = localStorage.getItem('theme') || 'dark';
 body.setAttribute('data-theme', currentTheme);
 
 // Update icon based on current theme
